@@ -47,6 +47,18 @@ if (capacity > 80) {
   console.log("We have more room to plant.");
 }
 
+// Part one with Loops
+// for (let i = 1; i < 4; i++) {
+//   let checkcapacity = ((weekOne * i * plantSpace) / area) * 100;
+//   if (checkcapacity > 80) {
+//     console.log("We need to prune the plants");
+//   } else if (checkcapacity >= 50 && capacity <= 80) {
+//     console.log("We'll keep monitoring the space");
+//   } else {
+//     console.log("We have more room to plant.");
+//   }
+// }
+
 //PART TWO
 
 const newPlantCount = 100;
