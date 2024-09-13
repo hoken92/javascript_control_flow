@@ -75,6 +75,8 @@ garden3Capacity = ((newPlantCount * plantSpace) / area) * 100;
 try {
   if (garden3Capacity > 80) {
     throw `Error - The amount of space required to hold the new number of plants exceeds the amount of space available. Our capacity is at ${garden3Capacity}%.`;
+  } else {
+    console.log("Garden capacity is not over 80%.");
   }
 } catch (error) {
   console.log(error);
